@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  /* font-family: "Poppins", sans-serif; */
+}
+.formSection {
+  margin: 0px 70px;
+}
+.subHeaderFlex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 50px 0px;
+}
+.returningCustomer h5 {
+  /* font-weight: 400; */
+  font-size: 18px;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  color: rgb(184, 174, 174);
+}
+
+.subHeaderFlex a i {
+  margin-right: 7px;
+}
+.returnHome {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #979090;
+  text-decoration: none;
+}
+
+.returningCustomer {
+  margin-right: 630px;
+}
+
+/* Check out */
+.returningCustomer h2 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #333232;
+  padding-bottom: 25px;
+}
+
+.returningCustomer h5 {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: #979090;
+}
+
+.returningCustomer h5 a {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--DarkGrey);
+}
+
+.form {
+  margin-left: 100px;
+  margin-right: 40px;
+}
+.form h3 {
+  padding-bottom: 20px;
+  color: #333232;
+}
+.formTableFlex {
+  display: flex;
+  justify-content: first baseline;
+}
+.formMain label {
+  display: block;
+  width: 150px;
+  text-align: left;
+  color: #666;
+}
+.samelineTextboxflex {
+  display: flex;
+  justify-content: start;
+}
+.samelineTextboxflex a {
+  margin-right: 100px;
+  text-decoration: none;
+  color: var(--DarkGrey);
+  margin-top: 20px;
+}
+
+.samelineTextboxflex i {
+  margin-right: 10px;
+  color: #8d8c8c;
+}
+
+.samelineTextboxflex input {
+  width: 300px;
+  font-weight: 500;
+  padding: 15px 20px;
+  margin: 5px 0px;
+  font-size: 16px;
+  border: 1px solid #666;
+}
+.singlelineTextbox input {
+  width: 625px;
+  font-weight: 500;
+  padding: 15px 20px;
+  margin: 5px 0px;
+  font-size: 16px;
+  border: 1px solid #666;
+}
+.singlelineTextbox label::before {
+  content: "\A";
+  white-space: pre;
+}
+.order input {
+  width: 625px;
+  height: 100px;
+  font-weight: 500;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: 1px solid #666;
+  margin-bottom: 50px;
+}
+.order label {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.space {
+  margin: 22px 0px;
+}
+
+#firstName {
+  margin-right: 25px;
+}
+#town {
+  margin-right: 25px;
+}
+#country {
+  margin-right: 25px;
+}
+
+/* Table */
+.orderTable {
+  font-size: 16px;
+  /* color: #666; */
+  /* border-bottom: 1px solid #666; */
+}
+.orderTable td,
+th {
+  border-bottom: 1px solid #666;
+  padding: 28px 0px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.orderTable tr > :first-child {
+  width: 250px;
+}
+
+.orderTable tr > :last-child {
+  text-align: right;
+  width: 110px;
+}
+.tableHead {
+  font-size: 20px;
+  color: var(--DarkGrey);
+  text-align: left;
+}
+.colorRed {
+  color: #f10c0c;
+}
+.colorGrey {
+  color: #666;
+}
+.capital {
+  text-transform: uppercase;
+}
+/* check box */
+.checkBox {
+  color: #8d8c8c;
+  padding: 30px 0px;
+}
+.checkBoxItem {
+  background-color: none;
+  padding-bottom: 20px;
+}
+.checkBoxItem input {
+  margin-right: 8px;
+}
+.placeOrderButton {
+  background-color: #000;
+  color: #fff;
+  padding: 13px 25px;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 140px;
+}

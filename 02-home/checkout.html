@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta char="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Fashion Store--Home</title>
+    <link href="CSS/style.css" rel="stylesheet" />
+    <link href="CSS/checkout.css" rel="stylesheet" />
+    <link href="CSS/owl.carousel.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    /> -->
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+      <div class="headerTop flex">
+        <div class="headerTopSide">
+          <span class="uppercase">
+            <i class="fa fa-shopping-cart"></i>free shipping on all orders
+          </span>
+        </div>
+        <div class="headerTopSide">
+          <span class="uppercase">
+            <i class="far fa-money-bill-alt"></i>100% money back guarantee
+          </span>
+        </div>
+        <div class="headerTopSide">
+          <span class="uppercase">
+            <i class="far fa-clock"></i>online support 24/7
+          </span>
+        </div>
+      </div>
+      <div class="headerBottom flex">
+        <img src="images/logo.png" alt="" />
+        <form class="search">
+          <div >
+            <input class="searchText verticalLine" type="text" placeholder="Search" />
+            <select class="searchTextCategories">  name="categories" id="categories">
+                <option value="allCategories">All Categories</option>
+                <option value="MenSection">Men Section</option>
+                <option value="WomenSection">Women Section</option>
+                <option value="NewArrivals">New Arrivals</option>
+                <option value="blog">The Blog</option>
+            </select>
+            <!-- <input class="searchButton" type="submit" value="Search" /> -->
+            <button class="searchButton" type="submit"><i class="fa fa-search"></i></button>
+          </div>
+        </form>
+        <div class="socialLinks">
+          <a href="#"><i class="fab fa-circle fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Menu -->
+    <section>
+      <div>
+        <ul class="mainMenu flexCenter">
+          <li>
+            <a class="itemMainMenu" href="#">Home</a>
+          </li>
+          <li><a class="itemMainMenu" href="#">Shop</a></li>
+          <li><a class="itemMainMenu" href="#">Features</a></li>
+          <li><a class="itemMainMenu" href="#">Mega Group</a></li>
+          <li><a class="itemMainMenu" href="#">About</a></li>
+          <li><a class="itemMainMenu" href="#">Blog</a></li>
+          <li><a class="itemMainMenu" href="#">contact</a></li>
+          <li>
+            <span
+              ><a class="itemShoppingCart" href="checkout.html"
+                ><i class="fa fa-shopping-cart"></i>Shopping Cart(0)</a
+              ></span
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+<section class="formSection">
+    <div class="subHeaderFlex">
+        <div class="returningCustomer">
+            <h2>checkout</h2>
+            <h5 >Returning customer?<a href="#">Click here</a>to login</h5>
+        </div>
+        <a class="returnHome" href="index.html"><i class="fa fa-angle-left"></i>return to shop<a/>
+    </div>
+    <div class="formTableFlex">
+    <!-- Form -->
+      <div class="form">
+    <h3>Billing Address</h3>  
+    <form class="formMain" novalidate>
+      <div class="samelineTextboxflex">
+        <div >
+            <label for="firstName">First name *</label>
+            <input
+              id="firstName"
+              name="name"
+              type="text"
+              title="Input your First name"
+              required
+            />
+        </div>
+        <div>
+              <label for="lastName">Last name *</label>
+              <input
+                  id="lastName"
+                  name="name"
+                  type="text"
+                  title="Input your Last name"
+                  required
+                />
+        </div>
+      </div>
+      <div class="singlelineTextbox">
+            <label for="email">Email *</label>
+            <input
+              id="email"
+              name="name"
+              type="text"
+              title="Input your email"
+              required
+            />
+            <label for="phone">Phone *</label>
+            <input
+              id="phone"
+              name="name"
+              type="text"
+              title="Input your phone"
+              required
+            />
+            <label for="companyName">Company name *</label>
+            <input
+              id="companyName"
+              name="name"
+              type="text"
+              title="Input your Company name"
+              required
+            />
+            <label for="address">Address *</label>
+            <input
+              id="address"
+              name="name"
+              type="text"
+              title="Input your Address"
+              required
+            />
+      </div>  
+      <div class="samelineTextboxflex space">
+        <div>
+            <label for="town">Town/ City*</label>
+            <input
+              id="town"
+              name="name"
+              type="text"
+              title="Input your town/city"
+              required
+            />
+        </div>
+        
+        <div>
+              <label for="state">State / Province *</label>
+              <input
+                  id="state"
+                  name="name"
+                  type="text"
+                  title="Input your state"
+                  required
+                />
+        </div>
+      </div>
+      <div class="samelineTextboxflex space">
+        <div >
+            <label for="country">Country *</label>
+            <input
+              id="country"
+              name="name"
+              type="text"
+              title="Input your country"
+              required
+            />
+        </div>
+        <div>
+              <label for="postcode">Postcode / ZIP *</label>
+              <input
+                  id="postcode"
+                  name="name"
+                  type="text"
+                  title="Input your postal code"
+                  required
+                />
+        </div>
+      </div>
+      <div class="samelineTextboxflex">
+          <a href="#"><i class="fas fa-check-circle "></i>Ship to a different address?</a>
+          <a href="#"><i class="fas fa-chevron-circle-down"></i>Create an account?</a>
+      
+      </div>
+      <div class="order">
+        <label for="order">Order note</label>
+        <input
+            id="order"
+            name="name"
+            type="text"
+            title="Input your order note"
+            required
+          />
+      </div>
+    
+    </form>
+      </div> 
+    <!-- Form Ends -->
+    <!-- Table -->
+    <div>
+    <table class="orderTable">
+      <tr>
+        
+        <th class="tableHead">Your Order</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td class="colorGrey">Halogen Room Handwear</td>
+        <td>$95.00</td>
+      </tr>
+      <tr>
+        <td class="colorGrey">Slooven Stripped T-shirt</td>
+        <td>$34</td>
+      </tr>
+      <tr>
+        <td>Subtotal</td>
+        <td class="colorRed">$129.00</td>
+      </tr>
+      <tr>
+        <td>Shipping</td>
+        <td>Free</td>
+      </tr>
+      <tr>
+        <td class="capital"><strong>Order Total</strong></td>
+        <td class="colorRed">$129.00</td>
+      </tr>
+    </table>
+  <!--Payment options -->
+    <div class="checkBox">
+    <div class="checkBoxItem">
+      <input type="checkbox" id="directBank" name="directBank">
+      <label for="directBank">Direct bank transfer</label>
+    </div>
+    
+    <div class="checkBoxItem">
+      <input type="checkbox" id="check" name="Check">
+      <label for="check">Check Payment</label>
+    </div>
+    <div class="checkBoxItem">
+      <input type="checkbox" id="paypal" name="paypal"
+             checked>
+      <label for="paypal">PayPal</label>
+    </div>
+    
+    <div class="checkBoxItem">
+      <input type="checkbox" id="creditCard" name="creditCard">
+      <label for="creditCard">Credit card</label>
+    </div>
+    <div class="checkBoxItem">
+      <input type="checkbox" id="cash" name="cash">
+      <label for="cash">Cash on delivery</label>
+    </div>
+  </div>
+  <input class="placeOrderButton" type="button" id="placeOrderButton" name="placeOrderButton" value="Place Order">
+  </div>
+    <!-- Table Ends -->
+
+
+ </div>
+    
+
+    <!-- <input
+    id="firstName"
+    name="name"
+    type="text"
+    placeholder="First Name"
+    title="Input your First name"
+    required
+  />     -->
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="flexFooterMain">
+      <div class="footerLeft">
+          <div>
+              <img src="images/logo.png" alt="logo image"/>
+          </div>
+          
+          <p>Vestibulum sagittis nisl nec pellen-tesque 
+            suscipit, arcu nisi maximus neque, vitae finibus 
+          erat odio eu lacus. Curabitur malesuada erat eros, quis 
+          dignissim dui accumsan id. Cras non imperdiet
+          metus. Sed nec turpis nec.</p>
+      </div>
+      <!-- footerLeft ends -->
+      <div class="footerRight">
+        <div class="footerRightTop">
+            <h3>sign up for our newsletter!</h3>
+            <input class="footerEmailTextBox" type="email" placeholder="hello@psdfreebies.com" />
+            <input class="footerSubmitButton" type="submit" value="Submit" /></span>
+        </div>
+        <div class="footerInfoContentFlex">
+            <div class=footerInformation >
+                <h3>information</h3>
+                
+                    <p><i class="fas fa-caret-right"></i>Careers</p>
+                    <p><i class="fas fa-caret-right"></i>Investor Relations</p>
+                    <p><i class="fas fa-caret-right"></i>Press Releases</p>
+                    <p><i class="fas fa-caret-right"></i>Shop with Points</p>
+                
+            </div>
+            <div class=footerInformation >
+              <h3>customer care</h3>
+              
+                  <p><i class="fas fa-caret-right"></i>Returns</p>
+                  <p><i class="fas fa-caret-right"></i>Shipping Info</p>
+                  <p><i class="fas fa-caret-right"></i>Gift Cards</p>
+                  <p><i class="fas fa-caret-right"></i>Size Guide</p>
+              
+            </div>
+            <div class="footerInformation" >
+              <h3>Store Information</h3>
+              <div><p><i class="fas fa-map-marker-alt"></i>address: Lorem ipsum dolor sit amet, Onsectetuer adipiscing elit</p></div>
+              <div><i class="fas fa-envelope"></i><a href="mailto:demo@posthemes.com">email:demo@posthemes.com</a></div>
+              <div><i class="fas fa-phone-alt"></i><a href="#">phone:0987654321</a></div>
+            </div>
+        </div>
+      </div>
+      <!-- footerRight ends -->
+    </div>
+    <!-- footerMAin ends -->
+    <h6 class="footerBottom"><i class="far fa-copyright"></i>  2018 The fashion. All rights reserved</h6>
+  </footer>
+</body>
+</html>
